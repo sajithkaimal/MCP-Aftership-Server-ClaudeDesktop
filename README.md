@@ -61,7 +61,7 @@ Now **quit & reopen Claude Desktop** (Cmd–Q on macOS) so it picks up the confi
 
 ## Use in Claude
 
-In any chat:
+In any chat (below or use natural language):
 
 - **List couriers**
   > *Run the `list-couriers` tool (aftership-tracking).*
