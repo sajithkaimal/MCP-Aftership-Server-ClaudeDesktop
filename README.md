@@ -9,23 +9,7 @@ Local [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server tha
 
 ## Architecture (diagram)
 
-![Crescendo MCP Architecture](images/Crescendo MCP.png)
-
----
-
-## How it works
-
-```mermaid
-graph TD
-  A[Claude Desktop<br/>Chat UI] --> B[MCP Client]
-  subgraph S[Local MCP Server (this repo)]
-    B -->|JSON-RPC over stdio| C[@modelcontextprotocol/sdk Server]
-    C --> D[Tools<br/>• list-couriers<br/>• track-shipment]
-    D --> E[AfterShip Utils<br/>(axios)]
-  end
-  E -->|HTTPS| F[AfterShip REST API]
-  F --> E --> D --> C -->|JSON-RPC| B --> A
-```
+![Crescendo MCP Architecture](images/Crescendo-MCP-framework.png)
 
 ---
 
