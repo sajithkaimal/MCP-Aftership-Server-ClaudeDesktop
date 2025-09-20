@@ -9,7 +9,7 @@ Local [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server tha
 
 ## Architecture (diagram)
 
-![Crescendo MCP Architecture](images/crescendo-mcp.png)
+![Crescendo MCP Architecture](images/Crescendo MCP.png)
 
 ---
 
