@@ -1,0 +1,18 @@
+# node / ts
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# env & secrets
+.env
+.env.*
+*.key
+*.pem
+
+# local Claude config (keep an example instead)
+claude_desktop_config.json
+
+# editor crap
+.vscode/
+.idea/
