@@ -2,8 +2,8 @@
 
 Local [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that lets **Claude Desktop** call the AfterShip API via two tools:
 
-- **`list-couriers`** – list available couriers
 - **`track-shipment`** – track a package by tracking number (with optional courier slug; falls back to detection)
+- **`list-couriers`** – list available couriers
 
 ---
 
