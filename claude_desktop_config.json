@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aftership-tracking": {
+      "command": "npx",
+      "args": ["-y", "tsx", "/absolute/path/to/repo/src/index.ts"],
+      "env": {
+        "AFTERSHIP_API_KEY": "$AFTERSHIP_API_KEY"
+      }
+    }
+  }
+}
